@@ -1,0 +1,31 @@
+  <!-- Modal de edicion de proyectos -->
+  <div class="modal fade" id="pro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable text-center">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="pro">Editar proyectos</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="formFile" class="form-label">Subir imagen</label>
+              <input class="form-control" type="file" id="formFile">
+            </div>
+            <div class="mb-3">
+              <label for="titulo-pro" class="form-label">Titulo</label>
+              <input type="text" class="form-control" id="titulo-pro">
+            </div>
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Leave a comment here" id="proyec1"></textarea>
+              <label for="proyec1">Comments</label>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn eliminar" data-bs-target="#pro2" data-bs-toggle="modal">Eliminar</button>
+          <button type="button" class="btn guardar">Guardar cambios</button>
+        </div>
+      </div>
+    </div>
+  </div>

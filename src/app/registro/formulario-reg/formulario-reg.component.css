@@ -1,0 +1,16 @@
+.container {
+    position: relative;
+    width: 930px;
+    display: flex;
+    justify-content: space-around;
+}
+.text-center{
+	font-weight: bold;
+}
+.form-login{
+	margin-top: 40%;
+}
+.ingresar, .ingresar:hover {
+    background-image: radial-gradient(circle at 54.37% 99.98%, #ff7e77 0, #ff6672 25%, #f94669 50%, #e61862 75%, #d60061 100%);
+    color: white;
+}

@@ -1,0 +1,19 @@
+.modal-footer {
+    align-self: center;
+}
+.guardar{
+	background-image: radial-gradient(circle at 51.25% 50%, #b7e5fd 0, #94cdeb 25%, #6cb4d8 50%, #3e9bc6 75%, #0084b5 100%);
+	color: #000;
+}
+.eliminar{
+	background-image: radial-gradient(circle at 54.59% 102.48%, #ff8149 0, #ff7047 16.67%, #fe5a42 33.33%, #f23c3c 50%, #e50837 66.67%, #da0036 83.33%, #d20039 100%);
+	color: #000;
+}
+.guardar:hover{
+	background-image: radial-gradient(circle at 51.25% 50%, #b7e5fd 0, #94cdeb 25%, #6cb4d8 50%, #3e9bc6 75%, #0084b5 100%);
+	color: #000;
+}
+.eliminar:hover{
+	background-image: radial-gradient(circle at 54.59% 102.48%, #ff8149 0, #ff7047 16.67%, #fe5a42 33.33%, #f23c3c 50%, #e50837 66.67%, #da0036 83.33%, #d20039 100%);
+	color: #000;
+}

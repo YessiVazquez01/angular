@@ -1,0 +1,21 @@
+#letrero{
+	margin-top: 10%;
+	font-family: 'Shadows Into Light', cursive;
+}
+.container{
+	display: flex !important;
+	align-items: center;
+  	justify-content: center;
+}
+.welcome{
+	font-size: 70px;
+}
+.preg{
+	font-size: 40px;
+}
+.btn{
+	color:white;
+}
+.btn:hover{
+	background-image: linear-gradient(180deg, #ff949c 0, #ff8499 16.67%, #ff6f93 33.33%, #f25389 50%, #dd3481 66.67%, #cb147d 83.33%, #bb007e 100%);
+}

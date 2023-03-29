@@ -1,0 +1,13 @@
+/*Barra de navegación*/
+.navbar{
+	z-index: 10;
+}
+.list-group{
+	--bs-list-group-bg: transparent;
+}
+.segundoList-group-item:hover{
+	background-image: radial-gradient(circle at 50% 89.96%, #c6f0ff 0, #9cd3ef 25%, #6cb4d8 50%, #3095c2 75%, #007aae 100%);
+}
+.fa-user-xmark{
+	cursor: pointer; 
+}

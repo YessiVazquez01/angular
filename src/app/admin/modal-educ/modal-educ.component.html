@@ -1,0 +1,31 @@
+<!-- Modal de edicion de educacion -->
+<div class="modal fade" id="educ" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable text-center">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="educ">Editar educación</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="formFile" class="form-label">Subir certificado</label>
+              <input class="form-control" type="file" id="formFile">
+            </div>
+            <div class="mb-3">
+              <label for="titulo-pro" class="form-label">Titulo</label>
+              <input type="text" class="form-control" id="titulo-certificad">
+            </div>
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Leave a comment here" id="educ1"></textarea>
+              <label for="educ1">Comments</label>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn eliminar" data-bs-target="#educ2" data-bs-toggle="modal">Eliminar</button>
+          <button type="button" class="btn guardar">Guardar cambios</button>
+        </div>
+      </div>
+    </div>
+</div>

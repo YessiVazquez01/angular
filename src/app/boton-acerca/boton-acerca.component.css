@@ -1,0 +1,18 @@
+.edit-info{
+	display: flex;
+  	flex-direction: column;
+  	align-self: center;
+}
+.lapizDos{
+	align-self: flex-start;
+	position: absolute;
+	top: 110%;
+	margin-left: 2rem;
+	cursor: pointer;
+}
+.lapizDos:hover{
+	color:#007aae !important;
+}
+.form-floating{
+	color:#000;
+}

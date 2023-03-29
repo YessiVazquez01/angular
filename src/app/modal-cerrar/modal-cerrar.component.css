@@ -1,0 +1,7 @@
+.cerrar, .cerrar:hover{
+	background-image: radial-gradient(circle at 51.25% 50%, #b7e5fd 0, #94cdeb 25%, #6cb4d8 50%, #3e9bc6 75%, #0084b5 100%);
+	color: #000;
+}
+.modal-footer {
+    align-self: center;
+}

@@ -1,0 +1,26 @@
+.text-center {
+    font-weight: bold;
+}
+.text-center {
+    text-align: center!important;
+}
+.ingresar, .ingresar:hover {
+	background-image: radial-gradient(circle at 54.37% 99.98%, #ff7e77 0, #ff6672 25%, #f94669 50%, #e61862 75%, #d60061 100%);
+	color:white;
+}
+.login > p{
+	font-size: 13px;
+}
+.nota{
+	color:red;
+	font-weight: bold;
+}
+.usuario{
+	font-weight: bold;
+}
+.modal-index .btn-close {
+	z-index: 10000;
+}
+.modal-footer {
+    align-self: center;
+}

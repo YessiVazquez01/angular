@@ -1,0 +1,27 @@
+/*Educacion*/
+#educacion{
+	width: 100%;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	color:#000;
+}
+#educacion h3{
+	font-family: 'Stalemate', cursive;
+	font-size: 60px;
+	font-weight: bold;
+}
+#educacion .card{
+	text-align: center;
+	font-family: 'Kalam', cursive;
+	font-size: 15px;
+}
+#educacion .card-title{
+	font-family: serif, cursive;
+	font-size: 20px;
+	font-weight: bold;
+}
+#educacion .col-md-4{
+	display: flex;
+    align-items: center;
+}

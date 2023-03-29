@@ -1,0 +1,16 @@
+/*boton de edicion de Proyectos*/
+.edit-proy{
+	display: flex;
+  	flex-direction: column;
+  	align-self: center;
+}
+.lapizSeis{
+	align-self: flex-start;
+	position: absolute;
+	top: 535%;
+	margin-left: 2rem;
+	cursor: pointer;
+}
+.lapizSeis:hover{
+	color:#007aae !important;
+}

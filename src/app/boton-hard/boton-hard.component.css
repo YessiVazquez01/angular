@@ -1,0 +1,16 @@
+/*boton de edicion de Hard & soft skill*/
+.edit-hard{
+	display: flex;
+  	flex-direction: column;
+  	align-self: center;
+}
+.lapizCinco{
+	align-self: flex-start;
+	position: absolute;
+	top: 340%;
+	margin-left: 2rem;
+	cursor: pointer;
+}
+.lapizCinco:hover{
+	color:#007aae !important;
+}

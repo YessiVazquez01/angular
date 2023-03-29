@@ -1,0 +1,9 @@
+.navbar1{
+	z-index: 1 !important;
+}
+.list-group{
+	--bs-list-group-bg: transparent;
+}
+.primerList-group-item:hover{
+	background-image: radial-gradient(circle at 54.37% 99.98%, #ff7e77 0, #ff6672 25%, #f94669 50%, #e61862 75%, #d60061 100%);
+}

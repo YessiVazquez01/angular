@@ -1,0 +1,59 @@
+<!-- Modal de edicion de perfil -->
+<div class="modal fade" id="bannerNomFoto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable text-center modal-perfil">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="#bannerNomFoto">Editar informacion de perfil</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="formFile" class="form-label">Imagen para el Banner</label>
+              <input class="form-control" type="file" id="formFile">
+            </div>
+            <div class="mb-3">
+                <label for="nomyape" class="form-label">Nombre y apellido</label>
+                <input type="text" class="form-control" id="nomyape" >
+            </div>
+            <div class="mb-3">
+                <label for="oficio" class="form-label">Oficio</label>
+                <input type="text" class="form-control" id="oficio" >
+            </div>
+            <div class="mb-3 pb-3">
+                <label for="formFile" class="form-label">Foto de perfil</label>
+                <input class="form-control" type="file" id="formFile">
+            </div>
+            <hr>
+            <div class="mb-3 pt-3 pb-2">
+                <h2>Redes</h2>
+            </div>
+            <div class="mb-3">
+              <label for="redlink" class="form-label">Linkedin</label>
+              <input type="text" class="form-control" id="redlink" >
+            </div>
+            <div class="mb-3">
+              <label for="redgit" class="form-label">Github</label>
+              <input type="text" class="form-control" id="redgit" >
+            </div>
+            <div class="mb-3">
+              <label for="redface" class="form-label">Facebook</label>
+              <input type="text" class="form-control" id="redface" >
+            </div>
+            <div class="mb-3">
+              <label for="redig" class="form-label">Instagram</label>
+              <input type="text" class="form-control" id="redig" >
+            </div>
+            <div class="mb-3">
+              <label for="redtw" class="form-label">Twitter</label>
+              <input type="text" class="form-control" id="redtw" >
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn eliminar" data-bs-target="#bannerNomFoto2" data-bs-toggle="modal">Eliminar</button>
+          <button type="button" class="btn guardar">Guardar cambios</button>
+        </div>
+      </div>
+    </div>
+</div>

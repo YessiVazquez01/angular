@@ -1,0 +1,14 @@
+.fondo{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/img/fondo2.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	overflow-x:hidden;
+}
+/*CAJA*/
+.caja{
+	margin: auto;
+	width: 65%;
+	color: white;
+	background:rgba(0,0,0,0.8);
+}

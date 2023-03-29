@@ -1,0 +1,19 @@
+/*boton de edicion de Experiencia*/
+.edit-exp{
+	display: flex;
+  	flex-direction: column;
+  	align-self: center;
+}
+.lapizTres{
+	align-self: flex-start;
+	position: absolute;
+	top: 180%;
+	margin-left: 2rem;
+	cursor: pointer;
+}
+.mb-3{
+	color:#000;
+}
+.lapizTres:hover{
+	color:#007aae !important;
+}

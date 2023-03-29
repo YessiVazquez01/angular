@@ -1,0 +1,16 @@
+/*boton de edicion de Educacion*/
+.edit-educ{
+	display: flex;
+  	flex-direction: column;
+  	align-self: center;
+}
+.lapizCuatro{
+	align-self: flex-start;
+	position: absolute;
+	top: 250%;
+	margin-left: 2rem;
+	cursor: pointer;
+}
+.lapizCuatro:hover{
+	color:#007aae !important;
+}

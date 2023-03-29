@@ -1,0 +1,31 @@
+<!--Login modal-->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered text-center modal-index">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title text-center fs-5" id="exampleModalLabel">Iniciar sesión</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body login">
+          <p>Para poder acceder a mi portafolio web y asi poder visualizar mis datos, se lo invita a registrarse.</p>
+          <p>(Puede utilizar una cuenta por defecto o crearse una propia)</p>
+          <span class="usuario">[Email] visitante@gmail.con - [Contraseña] invitado </span>
+          <form>
+                <div class="mb-3 pt-3">
+                  <label for="exampleInputEmail1" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3 pb-3">
+                  <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+          </form>
+          <p> <span class="nota">Nota:</span> Esta cuenta o la que se vaya a crear, solo lo dejara acceder a la informacion como una cuenta de invitado. Solo el administrador de dicho portafolio puede modificar, eliminar o agregar informacion.</p>
+          <small>¿Desea crearse una cuenta? <a routerLink="registro">Registrese</a></small>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn ingresar">Ingresar</button>
+        </div>
+      </div>
+    </div>
+  </div>
